@@ -1,39 +1,89 @@
 \chapter{Introdução}
 \label{chp:introduction}
-Faça aqui, uma introdução geral da área do conhecimento à qual o tema escolhido
-está ligado. 
-
+%Faça aqui, uma introdução geral da área do conhecimento à qual o tema escolhido
+%está ligado. 
+O tema está diretamente ligado a área de desenvolvimento de software e será
+desenvolvido uma Aplicação Web e Mobile utilizando a linguagem de programação
+JavaScript. No frontend será utilizado o React, no backend será utilizado
+o Nodejs e o banco de dados será o PostGresql. O React Native possibilitará a 
+portabilidade para a plataforma mobile.
 \section{Tema}
-A melhor forma de determinar o tema abordado é através de hipóteses. A hipótese
-consiste em uma afirmativa que você considera verdadeira e que vai provar ou
-buscar provar ao longo de seu trabalho. Outra forma é delimitando o problema em
-forma de uma pergunta de partida. Apresente uma visão geral do assunto que será
-abordado no trabalho.
-
+% A melhor forma de determinar o tema abordado é através de hipóteses. A hipótese
+% consiste em uma afirmativa que você considera verdadeira e que vai provar ou
+% buscar provar ao longo de seu trabalho. Outra forma é delimitando o problema em
+% forma de uma pergunta de partida. Apresente uma visão geral do assunto que será
+% abordado no trabalho.
+O tema escolhido foi desenvolver um Sistema de Administração de Condomínios
+personalizado. Atualmente, existem sistemas soluções personalizadas e acessíveis
+para administração de condomínios?
 \section{Problema}
-Dedique este tópico a esclarecer o que o pretende de fato com o seu esforço de
-pesquisa. Problema é a questão a ser respondida pelo trabalho, que motivou a sua
-realização. É uma questão que já tomou se formou em sua mente, derivada de
-teorias da área pesquisada e de sua observação sobre um fenômeno.  Normalmente
-se utilizam os subitens abaixo como meios de se determinar claramente os
-objetivos, o que também colabora para a delimitação do escopo do trabalho. Está
-estreitamente ligado ao objetivo geral, que, normalmente, consiste em encontrar
-a resposta para o problema de pesquisa.  O que você viu que é um problema que
-precisa de solução? É viável? Você consegue fazer? O problema é sempre uma
-dificuldade, uma lacuna.
+% Dedique este tópico a esclarecer o que o pretende de fato com o seu esforço de
+% pesquisa. Problema é a questão a ser respondida pelo trabalho, que motivou a sua
+% realização. É uma questão que já tomou se formou em sua mente, derivada de
+% teorias da área pesquisada e de sua observação sobre um fenômeno.  Normalmente
+% se utilizam os subitens abaixo como meios de se determinar claramente os
+% objetivos, o que também colabora para a delimitação do escopo do trabalho. Está
+% estreitamente ligado ao objetivo geral, que, normalmente, consiste em encontrar
+% a resposta para o problema de pesquisa.  O que você viu que é um problema que
+% precisa de solução? É viável? Você consegue fazer? O problema é sempre uma
+% dificuldade, uma lacuna.
+Por morar em um condomínio, observei que o síndico aqui do meu bloco não possui
+nenhum sistema para administração do condomínio e que mensalmente encaderna
+mais ou menos umas 100(cem) folhas dentre comprovantes, prestações de conta,
+notas fiscais, controle de empregados, etc.
+
+Ao fazer uma breve pesquisa nos condomínios adjacentes percebi a mesma
+problematica e percebi que para resolver essas dores poderia criar uma
+oportunidade de negócio.
+
+Ao conversar com o síndico do meu condomínio, tive o aceite de imediato e o 
+meu condomínio será o piloto no desenvolvimento do meu negócio e em troca terá
+custo zero o sistema que será criado, para o meu condomínio.
 
 \subsection{Objetivo geral}
-É a resposta ao problema especificado acima, ou seja, aquilo que se pretende
-fazer e que, depois de atingido, estará concluído o trabalho.. Alguns verbos
-utilizados para determinar o objetivo geral: contribuir / facilitar / subsidiar
-/ propor / clarear / permitir / agregar / compreender.
+% É a resposta ao problema especificado acima, ou seja, aquilo que se pretende
+% fazer e que, depois de atingido, estará concluído o trabalho.. Alguns verbos
+% utilizados para determinar o objetivo geral: contribuir / facilitar / subsidiar
+% / propor / clarear / permitir / agregar / compreender.
+Desenvolver uma aplicação Web para administração de condomínios e que
+inicialmente, para este TCC, terá como objetivo a criação do portal 
+http://cliquesindico.com.br (que já encontra-se registrado e hospedado), onde
+este portal principal será um "cartão de visitas" para o meu futuro negócio.
+
+A idéia principal é modularizar a aplicação através de subdomínios, onde cada 
+bloco ou condomínio terá um subdomínio único e com um sistema personalizado
+de acordo com a necessidade de cada condomínio.
+
+Para o meu condomínio, que será piloto neste projeto, foi criado o subdomínio
+http://sqn306b.cliquesindico.com.br, onde na página principal terá uma página
+de login, onde serão definidos alguns perfis, tais como administrador, gerente e
+condomino, por exemplo. Após se logar na aplicação o usuário terá acesso a um
+mural de avisos gerais do condomínio.
+
+Enviar e-mail aos condominos com avisos, notificações, cobranças, etc
+
+Criar uma página para prestação de contas mensal do condomínio.
+
+Após a conclusão do sistema, o síndico e a diretoria do condomínio terão total
+autonomia para inserir novos avisos, atualizar a prestação de contas e imprimir
+relatórios.
 
 \subsection{Objetivos específicos}
-Os objetivos específicos detalham os objetivos gerais através de etapas ou fases
-de pesquisa. Devem ser utilizados verbos no infinitivo, assinalando as ações
-propostas para alcançar o objetivo geral. Os verbos utilizados aqui são os de
-ação, que serão utilizados na metodologia.
+% Os objetivos específicos detalham os objetivos gerais através de etapas ou fases
+% de pesquisa. Devem ser utilizados verbos no infinitivo, assinalando as ações
+% propostas para alcançar o objetivo geral. Os verbos utilizados aqui são os de
+% ação, que serão utilizados na metodologia.
+Na página de login o usuário do sistema do condomínio terá a opção de se 
+cadastrar, caso ainda não esteja cadastrado, e o login será realizado através
+de e-mail e senha. O sistema notificará o síndico a fim de que valide o
+cadastro ou revogue o acesso.
 
+Será recolhido junto a administração do condomínio a documentação inicialmente
+para que o sistema começe a ser desenvolvido, tais como, e-mail dos moradores,
+avisos iniciais para inserção na página principal, modelo de ajuste de contas.
+
+Implementar os diferentes perfis de acesso, de acordo com a real necessidade
+do condomínio
 
 \section{Estrutura do TCC}
 Neste item você vai descrever como está constituída a monografia, indicando o
