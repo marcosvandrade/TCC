@@ -2,19 +2,19 @@
 \label{chp:introduction}
 %Faça aqui, uma introdução geral da área do conhecimento à qual o tema escolhido
 %está ligado. 
-O tema está diretamente ligado a área de desenvolvimento de software e será
-desenvolvido uma Aplicação Web e Mobile utilizando a linguagem de programação
-JavaScript. No frontend será utilizado o React, no backend será utilizado
-o Nodejs e o banco de dados será o PostGresql. O React Native possibilitará a 
-portabilidade para a plataforma mobile.
+O tema está diretamente ligado a área de desenvolvimento de software e terá como
+objetivo o desenvolvimento de uma Aplicação Web e Mobile utilizando a linguagem
+de programação JavaScript. No frontend será utilizado o React, no backend será
+utilizado o Nodejs e o banco de dados será o PostGresql. O React Native
+possibilitará a portabilidade do sistema para mobile.
 \section{Tema}
 % A melhor forma de determinar o tema abordado é através de hipóteses. A hipótese
 % consiste em uma afirmativa que você considera verdadeira e que vai provar ou
 % buscar provar ao longo de seu trabalho. Outra forma é delimitando o problema em
 % forma de uma pergunta de partida. Apresente uma visão geral do assunto que será
 % abordado no trabalho.
-O tema escolhido foi desenvolver um Sistema de Administração de Condomínios
-personalizado. Atualmente, existem sistemas soluções personalizadas e acessíveis
+O tema escolhido será desenvolver um Sistema de Administração de Condomínios
+personalizado. Atualmente, existem sistemas com soluções personalizadas e acessíveis
 para administração de condomínios?
 \section{Problema}
 % Dedique este tópico a esclarecer o que o pretende de fato com o seu esforço de
@@ -27,18 +27,18 @@ para administração de condomínios?
 % a resposta para o problema de pesquisa.  O que você viu que é um problema que
 % precisa de solução? É viável? Você consegue fazer? O problema é sempre uma
 % dificuldade, uma lacuna.
-Por morar em um condomínio, observei que o síndico aqui do meu bloco não possui
-nenhum sistema para administração do condomínio e que mensalmente encaderna
-mais ou menos umas 100(cem) folhas dentre comprovantes, prestações de conta,
-notas fiscais, controle de empregados, etc.
+Por morar em um condomínio, foi observado que o síndico do bloco não possui
+nenhum sistema para administração de condomínio e que mensalmente são encadernados
+mais de 100(cem) páginas dentre comprovantes, prestações de conta, notas fiscais,
+controle de empregados, etc.
 
-Ao fazer uma breve pesquisa nos condomínios adjacentes percebi a mesma
-problematica e percebi que para resolver essas dores poderia criar uma
+Ao ser realizada uma pesquisa nos condomínios adjacentes foi percebido a mesma
+problematica e que para resolver essas dores poderia surgir uma excelente
 oportunidade de negócio.
 
-Ao conversar com o síndico do meu condomínio, tive o aceite de imediato e o 
-meu condomínio será o piloto no desenvolvimento do meu negócio e em troca terá
-custo zero o sistema que será criado, para o meu condomínio.
+Ao ser realizado a entrevista inicial com o síndico do bloco, obteve-se o
+aceite de imediato e o este condomínio será o piloto no desenvolvimento
+do TCC, que em troca receberá o sistema com custo zero.
 
 \subsection{Objetivo geral}
 % É a resposta ao problema especificado acima, ou seja, aquilo que se pretende
@@ -46,23 +46,24 @@ custo zero o sistema que será criado, para o meu condomínio.
 % utilizados para determinar o objetivo geral: contribuir / facilitar / subsidiar
 % / propor / clarear / permitir / agregar / compreender.
 Desenvolver uma aplicação Web para administração de condomínios e que
-inicialmente, para este TCC, terá como objetivo a criação do portal 
-http://cliquesindico.com.br (que já encontra-se registrado e hospedado), onde
-este portal principal será um "cartão de visitas" para o meu futuro negócio.
+terá como objetivo geral a criação de um portal, onde serão oferecidos
+os serviços e que encontra-se hospedado em \url{http://cliquesindico.com.br}.
+Este portal será um "cartão de visitas" para os futuros contratos de
+desenvolvimento de sistemas personalizados para condomínios.
 
 A idéia principal é modularizar a aplicação através de subdomínios, onde cada 
 bloco ou condomínio terá um subdomínio único e com um sistema personalizado
-de acordo com a necessidade de cada condomínio.
+de acordo com a necessidade do condomínio.
 
-Para o meu condomínio, que será piloto neste projeto, foi criado o subdomínio
-http://sqn306b.cliquesindico.com.br, onde na página principal terá uma página
-de login, onde serão definidos alguns perfis, tais como administrador, gerente e
-condomino, por exemplo. Após se logar na aplicação o usuário terá acesso a um
-mural de avisos gerais do condomínio.
+Para o condomínio que será piloto neste projeto, foi criado o subdomínio
+\url{http://sqn306b.cliquesindico.com.br}, onde na página inicial terá uma página
+de login, onde inicialmente será definidos o perfil de administrador e de usuário
+comum. Após se logar na aplicação haverá um redirecionamento para a página
+principal do condomínio, onde encontrará um mural com avisos gerais do condomínio.
 
-Enviar e-mail aos condominos com avisos, notificações, cobranças, etc
+Serão enviados e-mail aos condominos com avisos, notificações, cobranças, etc
 
-Criar uma página para prestação de contas mensal do condomínio.
+Será criado uma página para prestação de contas mensal do condomínio.
 
 Após a conclusão do sistema, o síndico e a diretoria do condomínio terão total
 autonomia para inserir novos avisos, atualizar a prestação de contas e imprimir
@@ -73,14 +74,47 @@ relatórios.
 % de pesquisa. Devem ser utilizados verbos no infinitivo, assinalando as ações
 % propostas para alcançar o objetivo geral. Os verbos utilizados aqui são os de
 % ação, que serão utilizados na metodologia.
-Na página de login o usuário do sistema do condomínio terá a opção de se 
-cadastrar, caso ainda não esteja cadastrado, e o login será realizado através
-de e-mail e senha. O sistema notificará o síndico a fim de que valide o
-cadastro ou revogue o acesso.
+\begin{itemize}
+    \item Realizado a entevista inicial para determinação da dores e levantamento
+    inicial de requisitos.
+    
+    \item Criar o cronograma do Projeto.
+    
+    \item Criação de um portal onde serão inseridas as informações gerais sobre
+negócio, que terá como diferencial a personalização e o preço competitivo.
+    
+    \item Cada condomínio terá um subdomínio personalizado e idependente do
+restante do sistema.
 
-Será recolhido junto a administração do condomínio a documentação inicialmente
-para que o sistema começe a ser desenvolvido, tais como, e-mail dos moradores,
-avisos iniciais para inserção na página principal, modelo de ajuste de contas.
+    \item Será criado um módulo para login no sistema do condomínio em questão
+que terá a opção de cadastro, caso o usuário ainda não esteja cadastrado,
+e o acesso será realizado através e-mail e senha. O sistema notificará o síndico
+do condomínio correspondente, a fim de que valide o cadastro ou revogue o acesso
+caso o usuário não tenha relação com o condomínio.
+
+    \item Será recolhido junto a administração do condomínio a documentação 
+inicial para que o sistema começe a ser desenvolvido, tais como, e-mail
+dos moradores, avisos iniciais para inserção na página principal e modelo de
+ajuste de contas.
+
+    \item Desenvolvimento do sistema.
+    
+    Desenvolver o frontend, backend, api e banco de dados. Para isso será 
+utilizado a linguagem JavaScript, React no frontend, NodeJS para APIs e para
+o backend e Postgreesql para o banco de dados.
+
+    Para modelagem do banco será utilizado o BrModelo e para criação do banco o PGAdmin.
+
+    \item Realização dos testes para validação inicial do sistema, junto a administração
+do condomínio e levantamento de problemas e melhoramentos.
+
+    \item Documentar o sistema
+    
+\end{itemize}
+
+
+
+
 
 Implementar os diferentes perfis de acesso, de acordo com a real necessidade
 do condomínio
