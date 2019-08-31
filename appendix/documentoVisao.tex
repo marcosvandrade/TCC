@@ -1,76 +1,12 @@
-%preambulo
-\documentclass[a4paper,12pt]{article}
-
+\documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage[brazil]{babel}
-\usepackage{geometry}
-%\usepackage{supertabular}
-\usepackage{multirow}
+\usepackage{pdfpages}
 
-%formatação de cabeçalho e rodapé
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{}
-
-%configura a linha do cabeçalho
-%\renewcommand{\headrulewidth}{1pt}
-
-% Page layout (geometry)
-\setlength\voffset{-1in}
-\setlength\hoffset{-1in}
-\setlength\topmargin{1in}
-\setlength\oddsidemargin{1in}
-\setlength\textheight{9.6929in}
-\setlength\textwidth{6.2681in}
-\setlength\footskip{0.0cm}
-\setlength\headheight{1cm}
-\setlength\headsep{2cm}
-
-%cabeçalho
-
-\lhead{
-Sistema para Administração de Condomínios
-\linebreak   
-\newline   
-Documento de Visão
-}
-
-\chead{}
-
-\rhead{
-Versão 1.0
-\linebreak
-\newline
-Data: 30 Ago 19
-}
-
-%rodapé
-
-\lfoot{Confidencial}
-
-\cfoot{Webcreatecode 2019}
-
-\rfoot{Page \thepage}
-
-%body
 \begin{document}
- 
-\section{First Section}
- 
-Hello,  here  is  some  text  without  a  meaning.   This  
-text  should  show  what  a printed text will look like at 
-this place.  If you read this text, you will get no information.  
-Really?  Is there no information?  Is there a difference between 
-this ...
- 
-\newpage
 
-\section{Second Section}
- 
-Hello,  here  is  some  text  without  a  meaning.   This  
-text  should  show  what  a printed text will look like at 
-this place.  If you read this text, you will get no information.  
-Really?  Is there no information?  Is there a difference between 
-this ...
+% %inserindo todas as páginas
+\includepdf[pages=-]{testeDocVisao.pdf}
 
 \end{document}
